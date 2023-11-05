@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, #79E0EE, #B1AFFF, #79E0EE);
+}
+
+button {
+    color: red;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: yellow;
+}
+
+#score {
+    color: green;
+}
+
+span {
+    font-size: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    color: red;
+    font-size: 50px;
+}
