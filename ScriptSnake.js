@@ -129,7 +129,7 @@ function advanceSnake() {
 
   const didEatFood = snake[0].x === foodX && snake[0].y === foodY;
   if (didEatFood) {
-    score += 10;
+    score += 1;
     document.getElementById('score').innerHTML = score;
     createFood();
   } else {
